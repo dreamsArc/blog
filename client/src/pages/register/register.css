@@ -1,0 +1,63 @@
+.register {
+  height: 100vh;
+
+  background: url("https://cdn.pixabay.com/photo/2016/09/01/02/53/hand-1635146_640.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.registerForm > label {
+  margin-top: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.registerInput {
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
+
+.registerButton {
+  width: 100px;
+  align-self: center;
+  border: none;
+  padding: 10px 10px;
+  background-color: teal;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.registerLoginButton {
+  width: 100px;
+  top: 60px;
+  right: 20px;
+  position: absolute;
+  border: none;
+  padding: 10px 10px;
+  background-color: lightcoral;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
